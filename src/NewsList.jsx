@@ -40,7 +40,7 @@ const searchhandler = (e)=>{
           gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
         }}
       >
-        {articles.map((article, index) => (
+        {articles.slice(0, 10).map((article, index) => (
           <div
             key={index}
             style={{

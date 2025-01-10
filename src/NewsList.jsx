@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchNews, removeArticle, addToLeave, search } from "./features/news/newsSlice";
+import { fetchNews, removeArticle, addToLeave, search } from "./features/news/NewsSlice";
 import news from "./Images/news.jpg";
 
 const NewsList = () => {
